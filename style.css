@@ -1,0 +1,313 @@
+@media screen and (orientation: landscape) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .home {
+        background-color: #373636;
+        position: relative;
+        aspect-ratio: 16 / 9;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .topbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999999;
+        width: 100%;
+        aspect-ratio: 16 / .7;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info {
+        color: #FFF;
+        background-color: #242323;
+        position: relative;
+        width: 40%;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .divider {
+        background-image: url('./images/border-vertical.png');
+        width: .2%;
+        height: 100%;
+    }
+
+    .projects {
+        color: #FFF;
+        background-size: cover;
+        background-image: url('./images/spirale.svg');
+        background-color: #242323;
+        position: relative;
+        width: 60%;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .info h1 {
+        font-family: 'Helvetica World', Arial, sans-serif;
+        text-align: center;
+        width: 100%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        font-size: 2vw;
+    }
+
+    .name {
+        margin-top: 0vw;
+        width: 100%;
+        height: 4vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-bottom: 1vw;
+    }
+
+    .other {
+        width: 100%;
+        height: 4vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-bottom: 1vw;
+    }
+
+    .other2 {
+        width: 100%;
+        height: 4vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-bottom: 1vw;
+    }
+
+    .other3 {
+        width: 100%;
+        height: 4vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-bottom: 1vw;
+    }
+
+    .other4 {
+        width: 100%;
+        height: 4vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-bottom: 1vw;
+    }
+
+    .other5 {
+        width: 100%;
+        height: 4vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-bottom: 1vw;
+    }
+
+    .label-text {
+        font-size: 1.3vw;
+    }
+
+    .label-line {
+        width: 100%;
+        border: none;
+        border-top: 0.1vw solid #FFF;
+        margin: 0.4vw 0;
+    }
+
+    .name-text {
+        font-size: 1.3vw;
+        color: gray;
+    }
+
+    .first {
+        width: 8vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .last {
+        width: 8vw;
+        margin-right: 25vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .middle {
+        width: 9vw;
+        margin-left: 25vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .age {
+        width: 8vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .gender {
+        width: 8vw;
+        margin-right: 25vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .religion {
+        width: 9vw;
+        margin-left: 25vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .nationality {
+        margin-left: 25vw;
+        width: 8vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .marital {
+        width: 8vw;
+        margin-right: 25vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .birthdate {
+        width: 10vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .email {
+        width: 33vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .phone {
+        width: 33vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .address {
+        width: 33vw;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .address .label-text {
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (orientation: portrait) {
+
+    body,
+    html {
+        height: 0%;
+        width: 0%;
+        margin: 0;
+        display: hidden;
+        overflow: hidden;
+        scroll-behavior: smooth;
+        background-color: #242323;
+    }
+}
