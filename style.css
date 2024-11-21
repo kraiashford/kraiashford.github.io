@@ -6,7 +6,7 @@
         width: auto;
         height: 100%;
         overflow-x: hidden;
-        overflow-y: auto;
+        overflow-y: scroll;
         scroll-behavior: smooth;
     }
 
@@ -15,8 +15,6 @@
         position: relative;
         aspect-ratio: 16 / 9;
         display: flex;
-        overflow-x: hidden;
-        overflow-y: auto;
     }
 
     .topbar {
@@ -40,8 +38,7 @@
         position: relative;
         width: 40%;
         display: flex;
-        overflow-x: hidden;
-        overflow-y: auto;
+        overflow: hidden;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -62,8 +59,7 @@
         position: relative;
         width: 60%;
         display: flex;
-        overflow-x: hidden;
-        overflow-y: auto;
+        overflow: hidden;
         flex-direction: column;
         justify-content: center;
         align-items: center;
