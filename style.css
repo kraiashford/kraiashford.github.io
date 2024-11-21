@@ -6,7 +6,7 @@
         width: auto;
         height: 100%;
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: auto;
         scroll-behavior: smooth;
     }
 
@@ -38,7 +38,8 @@
         position: relative;
         width: 40%;
         display: flex;
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -59,7 +60,8 @@
         position: relative;
         width: 60%;
         display: flex;
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
